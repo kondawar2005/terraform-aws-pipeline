@@ -3,7 +3,7 @@ resource "aws_s3_bucket" "my_bucket" {
 
     tags = {
       Env= var.env
-      Serviceid ="ts0111"
+      Serviceid ="ts0123"
     }
   
 }
